@@ -1,19 +1,14 @@
 hash: 9e5e92d6d395fa7b6bfc483c8cffb9155e7254b984d59fa0683f88b65389e295
-updated: 2016-11-02T17:29:03.208693182-07:00
+updated: 2019-01-18T00:56:16.438925103-05:00
 imports:
 - name: github.com/coreos/go-systemd
-  version: 64d5cd7cb947834ef93874e82745c42ad6de4d0e
+  version: 9002847aa1425fb6ac49077c0a630b3b67e0fbfd
   subpackages:
   - activation
-  - util
-- name: github.com/coreos/pkg
-  version: 447b7ec906e523386d9c53be15b55a8ae86ea944
-  subpackages:
-  - dlopen
 - name: github.com/docker/distribution
-  version: fbe6e8d212ed880cf7f7c9f876ba9b15c8221c5f
+  version: b75069ef13a1de846c0cdf964f5917f5b00c1a47
   subpackages:
-  - digest
+  - digestset
   - reference
 - name: github.com/docker/engine-api
   version: 3d1601b9d2436a70b0dfc045a23f6503d19195df
@@ -33,41 +28,38 @@ imports:
   - types/time
   - types/versions
 - name: github.com/docker/go-connections
-  version: f512407a188ecb16f31a33dbc9c4e4814afc1b03
+  version: 97c2040d34dfae1d1b1275fa3a78dbdd2f41cf7e
   subpackages:
   - nat
   - sockets
   - tlsconfig
 - name: github.com/docker/go-plugins-helpers
-  version: 60d242cfd0fb30e5002fbf76bf6872e81e85adba
+  version: 1e6269c305b8c75cfda1c8aa91349c38d7335814
   subpackages:
   - sdk
   - volume
 - name: github.com/docker/go-units
-  version: 8a7beacffa3009a9ac66bad506b18ffdd110cf97
+  version: 2fb04c6466a548a03cb009c5569ee1ab1e35398e
 - name: github.com/fatih/color
-  version: dea9d3a26a087187530244679c1cfb3a42937794
+  version: 5b77d2a35fb0ede96d138fc9a99f5c9b6aef11b4
 - name: github.com/mattn/go-colorable
-  version: 6e26b354bd2b0fc420cb632b0d878abccdc6544c
+  version: efa589957cd060542a26d2dd7832fd6a6c6c3ade
 - name: github.com/mattn/go-isatty
-  version: 66b8e73f3f5cda9f96b69efd03dd3d7fc4a5cdb8
+  version: 3fb116b820352b7f0c281308a4d6250c22d94e27
 - name: github.com/Microsoft/go-winio
-  version: ce2922f643c8fd76b46cadc7f404a06282678b34
-- name: github.com/opencontainers/runc
-  version: 49ed0a10e4edba88f9221ec730d668099f6d6de8
-  subpackages:
-  - libcontainer/user
-- name: github.com/Sirupsen/logrus
-  version: 55eb11d21d2a31a3cc93838241d04800f52e823d
-  subpackages:
-  - formatters/logstash
+  version: 75bf6ca3d7cb77506c52495e61472c131a254d56
+- name: github.com/opencontainers/go-digest
+  version: c9281466c8b2f606084ac71339773efd177436e7
+- name: github.com/pkg/errors
+  version: ffb6e22f01932bf7ac35e0bad9be11f01d1c8685
 - name: golang.org/x/net
-  version: 4876518f9e71663000c348837735820161a42df7
+  version: 915654e7eabcea33ae277abbecf52f0d8b7a9fdc
   subpackages:
   - context
+  - internal/socks
   - proxy
 - name: golang.org/x/sys
-  version: c200b10b5d5e122be351b67af224adc6128af5bf
+  version: 11f53e03133963fb11ae0588e08b5e0b85be8be5
   subpackages:
   - unix
   - windows
